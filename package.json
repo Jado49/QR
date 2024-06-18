@@ -1,14 +1,20 @@
 {
-  "name": "QR Generator",
+  "name": "QR-Generator",
   "version": "1.0.0",
-  "description": "Your project description",
   "scripts": {
-    "build": "postcss src/styles.css -o dist/main.css",
-    "watch": "postcss src/styles.css -o dist/main.css --watch"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.13"
-  }
+  "dependencies": {
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "copy-to-clipboard": "^3.3.1",
+    "next-seo": "^4.7.3",
+    "tailwindcss": "^2.2.19",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.0.1"
+  },
+  "license": "MIT"
 }

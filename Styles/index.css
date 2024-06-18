@@ -1,0 +1,33 @@
+/* index.css */
+
+/* Import Tailwind CSS base styles */
+@tailwind base;
+
+/* Import Tailwind CSS component styles */
+@tailwind components;
+
+/* Your custom styles */
+/* Example: */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #3490dc;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
